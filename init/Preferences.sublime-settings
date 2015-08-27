@@ -18,11 +18,10 @@
     ".git",
     "node_modules"
   ],
-  "font_face": "Monaco",
+  "font_face": "Inconsolata",
   "font_size": 13,
   "highlight_modified_tabs": true,
   "hot_exit": false,
-  "line_padding_bottom": 5,
   "match_brackets": true,
   "match_brackets_angle": true,
   "remember_open_files": false,
