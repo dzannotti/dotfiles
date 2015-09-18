@@ -52,7 +52,7 @@ endif
 set tabstop=2 softtabstop=0 expandtab shiftwidth=2 smarttab
 
 " Display extra whitespace
-set list listchars=tab:»·,trail:·,nbsp:·,eol:¬
+set list listchars=tab:»·,trail:·,nbsp:·,eol:¬,space:·
 set list
 
 " Make it obvious where 80 characters is
