@@ -2,12 +2,12 @@
 (add-hook 'after-init-hook #'global-flycheck-mode)
 
 ;; disable jshint since we prefer eslint checking
-(setq-default flycheck-disabled-checkers
-  (append flycheck-disabled-checkers
-    '(javascript-jshint)))
+(setq flycheck-disabled-checkers '(javascript-jshint javascript-jscs))
 
 ;; use eslint with web-mode for jsx files
+(setq flycheck-checkers '(javascript-eslint))
 (flycheck-add-mode 'javascript-eslint 'web-mode)
+(flycheck-add-mode 'javascript-eslint 'js2-mode)
 
 ;; https://github.com/purcell/exec-path-from-shell
 ;; only need exec-path-from-shell on OSX

@@ -20,6 +20,7 @@
   '(
     anzu
     avy
+    auto-complete
     diminish
     evil
     evil-surround
@@ -29,11 +30,14 @@
     helm-projectile
     highlight-leading-spaces
     js2-mode
+    js2-refactor
     key-chord
     magit
     projectile
     spaceline
     undo-tree
+    tern
+    tern-auto-complete
     web-mode
     which-func
 ))

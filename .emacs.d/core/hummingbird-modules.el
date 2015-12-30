@@ -10,5 +10,6 @@
 (require 'hummingbird-magit)
 (require 'hummingbird-webmode)
 (require 'hummingbird-spaceline)
+(require 'hummingbird-autocomplete)
 
 (provide 'hummingbird-modules)
