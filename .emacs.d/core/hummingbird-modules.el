@@ -11,5 +11,6 @@
 (require 'hummingbird-webmode)
 (require 'hummingbird-spaceline)
 (require 'hummingbird-autocomplete)
+(require 'hummingbird-neotree)
 
 (provide 'hummingbird-modules)

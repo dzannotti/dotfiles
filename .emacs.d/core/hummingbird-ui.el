@@ -16,7 +16,7 @@
 (setq linum-format "%4d ")
 
 ;; fonting
-(set-default-font "Fira Mono 14")
+(set-default-font "Fira Mono 15")
 
 ;; Highlighting current line
 (global-hl-line-mode 1)

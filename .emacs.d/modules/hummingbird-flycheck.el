@@ -9,6 +9,10 @@
 (flycheck-add-mode 'javascript-eslint 'web-mode)
 (flycheck-add-mode 'javascript-eslint 'js2-mode)
 
+(let ((checkers (get 'javascript-eslint 'flycheck-next-checkers)))
+  (put 'javascript-eslint 'flycheck-next-checkers
+       (remove '(warning . javascript-jscs) checkers)))
+
 ;; https://github.com/purcell/exec-path-from-shell
 ;; only need exec-path-from-shell on OSX
 ;; this hopefully sets up path and other vars better
