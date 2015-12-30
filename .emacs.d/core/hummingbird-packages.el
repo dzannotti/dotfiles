@@ -23,6 +23,7 @@
     diminish
     evil
     evil-surround
+    exec-path-from-shell
     flycheck
     helm
     helm-projectile
