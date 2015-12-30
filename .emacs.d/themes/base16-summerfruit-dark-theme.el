@@ -1,31 +1,31 @@
-;; Base16 OceanicNext (https://github.com/chriskempson/base16)
-;; Scheme: https://github.com/voronianski/oceanic-next-color-scheme
+;; Base16 Summerfruit (https://github.com/chriskempson/base16)
+;; Scheme: Christopher Corley (http://cscorley.github.io/)
 
-;;; base16-oceanicnext-dark-theme.el
+;;; base16-summerfruit-dark-theme.el
 
 ;;; Code:
 
-(deftheme base16-oceanicnext-dark)
+(deftheme base16-summerfruit-dark)
 
-(let ((base00 "#1B2B34")
-      (base01 "#343D46")
-      (base02 "#4F5B66")
-      (base03 "#65737E")
-      (base04 "#A7ADBA")
-      (base05 "#C0C5CE")
-      (base06 "#CDD3DE")
-      (base07 "#D8DEE9")
-      (base08 "#EC5f67")
-      (base09 "#F99157")
-      (base0A "#FAC863")
-      (base0B "#99C794")
-      (base0C "#5FB3B3")
-      (base0D "#6699CC")
-      (base0E "#C594C5")
-      (base0F "#AB7967"))
+(let ((base00 "#151515")
+      (base01 "#202020")
+      (base02 "#303030")
+      (base03 "#505050")
+      (base04 "#B0B0B0")
+      (base05 "#D0D0D0")
+      (base06 "#E0E0E0")
+      (base07 "#FFFFFF")
+      (base08 "#FF0086")
+      (base09 "#FD8900")
+      (base0A "#ABA800")
+      (base0B "#00C918")
+      (base0C "#1faaaa")
+      (base0D "#3777E6")
+      (base0E "#AD00A1")
+      (base0F "#cc6633"))
 
   (custom-theme-set-faces 
-   'base16-oceanicnext-dark
+   'base16-summerfruit-dark
 
    ;; Built-in stuff (Emacs 23)
    `(border ((t (:background ,base03))))
@@ -490,7 +490,7 @@
    `(custom-state ((t (:foreground ,base0B)))))
 
   (custom-theme-set-variables
-   'base16-oceanicnext-dark
+   'base16-summerfruit-dark
 
    `(ansi-color-names-vector
      ;; black, base08, base0B, base0A, base0D, magenta, cyan, white
@@ -499,6 +499,6 @@
      ;; black, base08, base0B, base0A, base0D, magenta, cyan, white
      [unspecified ,base00 ,base08 ,base0B ,base0A ,base0D ,base0E ,base0D ,base05])))
 
-(provide-theme 'base16-oceanicnext-dark)
+(provide-theme 'base16-summerfruit-dark)
 
-;;; base16-oceanicnext-dark-theme.el ends here
+;;; base16-summerfruit-dark-theme.el ends here

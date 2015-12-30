@@ -1,31 +1,31 @@
-;; Base16 OceanicNext (https://github.com/chriskempson/base16)
-;; Scheme: https://github.com/voronianski/oceanic-next-color-scheme
+;; Base16 Ashes (https://github.com/chriskempson/base16)
+;; Scheme: Jannik Siebert (https://github.com/janniks)
 
-;;; base16-oceanicnext-dark-theme.el
+;;; base16-ashes-dark-theme.el
 
 ;;; Code:
 
-(deftheme base16-oceanicnext-dark)
+(deftheme base16-ashes-dark)
 
-(let ((base00 "#1B2B34")
-      (base01 "#343D46")
-      (base02 "#4F5B66")
-      (base03 "#65737E")
-      (base04 "#A7ADBA")
-      (base05 "#C0C5CE")
-      (base06 "#CDD3DE")
-      (base07 "#D8DEE9")
-      (base08 "#EC5f67")
-      (base09 "#F99157")
-      (base0A "#FAC863")
-      (base0B "#99C794")
-      (base0C "#5FB3B3")
-      (base0D "#6699CC")
-      (base0E "#C594C5")
-      (base0F "#AB7967"))
+(let ((base00 "#1C2023")
+      (base01 "#393F45")
+      (base02 "#565E65")
+      (base03 "#747C84")
+      (base04 "#ADB3BA")
+      (base05 "#C7CCD1")
+      (base06 "#DFE2E5")
+      (base07 "#F3F4F5")
+      (base08 "#C7AE95")
+      (base09 "#C7C795")
+      (base0A "#AEC795")
+      (base0B "#95C7AE")
+      (base0C "#95AEC7")
+      (base0D "#AE95C7")
+      (base0E "#C795AE")
+      (base0F "#C79595"))
 
   (custom-theme-set-faces 
-   'base16-oceanicnext-dark
+   'base16-ashes-dark
 
    ;; Built-in stuff (Emacs 23)
    `(border ((t (:background ,base03))))
@@ -490,7 +490,7 @@
    `(custom-state ((t (:foreground ,base0B)))))
 
   (custom-theme-set-variables
-   'base16-oceanicnext-dark
+   'base16-ashes-dark
 
    `(ansi-color-names-vector
      ;; black, base08, base0B, base0A, base0D, magenta, cyan, white
@@ -499,6 +499,6 @@
      ;; black, base08, base0B, base0A, base0D, magenta, cyan, white
      [unspecified ,base00 ,base08 ,base0B ,base0A ,base0D ,base0E ,base0D ,base05])))
 
-(provide-theme 'base16-oceanicnext-dark)
+(provide-theme 'base16-ashes-dark)
 
-;;; base16-oceanicnext-dark-theme.el ends here
+;;; base16-ashes-dark-theme.el ends here

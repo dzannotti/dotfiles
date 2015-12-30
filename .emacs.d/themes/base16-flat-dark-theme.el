@@ -1,31 +1,31 @@
-;; Base16 OceanicNext (https://github.com/chriskempson/base16)
-;; Scheme: https://github.com/voronianski/oceanic-next-color-scheme
+;; Base16 Flat (https://github.com/chriskempson/base16)
+;; Scheme: Chris Kempson (http://chriskempson.com)
 
-;;; base16-oceanicnext-dark-theme.el
+;;; base16-flat-dark-theme.el
 
 ;;; Code:
 
-(deftheme base16-oceanicnext-dark)
+(deftheme base16-flat-dark)
 
-(let ((base00 "#1B2B34")
-      (base01 "#343D46")
-      (base02 "#4F5B66")
-      (base03 "#65737E")
-      (base04 "#A7ADBA")
-      (base05 "#C0C5CE")
-      (base06 "#CDD3DE")
-      (base07 "#D8DEE9")
-      (base08 "#EC5f67")
-      (base09 "#F99157")
-      (base0A "#FAC863")
-      (base0B "#99C794")
-      (base0C "#5FB3B3")
-      (base0D "#6699CC")
-      (base0E "#C594C5")
-      (base0F "#AB7967"))
+(let ((base00 "#2C3E50")
+      (base01 "#34495E")
+      (base02 "#7F8C8D")
+      (base03 "#95A5A6")
+      (base04 "#BDC3C7")
+      (base05 "#e0e0e0")
+      (base06 "#f5f5f5")
+      (base07 "#ECF0F1")
+      (base08 "#E74C3C")
+      (base09 "#E67E22")
+      (base0A "#F1C40F")
+      (base0B "#2ECC71")
+      (base0C "#1ABC9C")
+      (base0D "#3498DB")
+      (base0E "#9B59B6")
+      (base0F "#be643c"))
 
   (custom-theme-set-faces 
-   'base16-oceanicnext-dark
+   'base16-flat-dark
 
    ;; Built-in stuff (Emacs 23)
    `(border ((t (:background ,base03))))
@@ -490,7 +490,7 @@
    `(custom-state ((t (:foreground ,base0B)))))
 
   (custom-theme-set-variables
-   'base16-oceanicnext-dark
+   'base16-flat-dark
 
    `(ansi-color-names-vector
      ;; black, base08, base0B, base0A, base0D, magenta, cyan, white
@@ -499,6 +499,6 @@
      ;; black, base08, base0B, base0A, base0D, magenta, cyan, white
      [unspecified ,base00 ,base08 ,base0B ,base0A ,base0D ,base0E ,base0D ,base05])))
 
-(provide-theme 'base16-oceanicnext-dark)
+(provide-theme 'base16-flat-dark)
 
-;;; base16-oceanicnext-dark-theme.el ends here
+;;; base16-flat-dark-theme.el ends here

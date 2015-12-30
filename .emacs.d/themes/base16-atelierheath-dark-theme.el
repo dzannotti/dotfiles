@@ -1,31 +1,31 @@
-;; Base16 OceanicNext (https://github.com/chriskempson/base16)
-;; Scheme: https://github.com/voronianski/oceanic-next-color-scheme
+;; Base16 Atelier Heath (https://github.com/chriskempson/base16)
+;; Scheme: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/heath)
 
-;;; base16-oceanicnext-dark-theme.el
+;;; base16-atelierheath-dark-theme.el
 
 ;;; Code:
 
-(deftheme base16-oceanicnext-dark)
+(deftheme base16-atelierheath-dark)
 
-(let ((base00 "#1B2B34")
-      (base01 "#343D46")
-      (base02 "#4F5B66")
-      (base03 "#65737E")
-      (base04 "#A7ADBA")
-      (base05 "#C0C5CE")
-      (base06 "#CDD3DE")
-      (base07 "#D8DEE9")
-      (base08 "#EC5f67")
-      (base09 "#F99157")
-      (base0A "#FAC863")
-      (base0B "#99C794")
-      (base0C "#5FB3B3")
-      (base0D "#6699CC")
-      (base0E "#C594C5")
-      (base0F "#AB7967"))
+(let ((base00 "#1b181b")
+      (base01 "#292329")
+      (base02 "#695d69")
+      (base03 "#776977")
+      (base04 "#9e8f9e")
+      (base05 "#ab9bab")
+      (base06 "#d8cad8")
+      (base07 "#f7f3f7")
+      (base08 "#ca402b")
+      (base09 "#a65926")
+      (base0A "#bb8a35")
+      (base0B "#918b3b")
+      (base0C "#159393")
+      (base0D "#516aec")
+      (base0E "#7b59c0")
+      (base0F "#cc33cc"))
 
   (custom-theme-set-faces 
-   'base16-oceanicnext-dark
+   'base16-atelierheath-dark
 
    ;; Built-in stuff (Emacs 23)
    `(border ((t (:background ,base03))))
@@ -490,7 +490,7 @@
    `(custom-state ((t (:foreground ,base0B)))))
 
   (custom-theme-set-variables
-   'base16-oceanicnext-dark
+   'base16-atelierheath-dark
 
    `(ansi-color-names-vector
      ;; black, base08, base0B, base0A, base0D, magenta, cyan, white
@@ -499,6 +499,6 @@
      ;; black, base08, base0B, base0A, base0D, magenta, cyan, white
      [unspecified ,base00 ,base08 ,base0B ,base0A ,base0D ,base0E ,base0D ,base05])))
 
-(provide-theme 'base16-oceanicnext-dark)
+(provide-theme 'base16-atelierheath-dark)
 
-;;; base16-oceanicnext-dark-theme.el ends here
+;;; base16-atelierheath-dark-theme.el ends here
