@@ -19,13 +19,15 @@
 (defvar package-list
   '(
     anzu
-    avy
     auto-complete
+    avy
     diminish
     evil
     evil-surround
     exec-path-from-shell
+    eyebrowse
     flycheck
+    git-gutter
     helm
     helm-projectile
     highlight-leading-spaces
@@ -33,13 +35,16 @@
     js2-refactor
     key-chord
     magit
+    persp-mode
+    persp-projectile
     projectile
     spaceline
-    undo-tree
     tern
     tern-auto-complete
+    undo-tree
     web-mode
     which-func
+    window-numbering
 ))
 
 ; install the missing packages

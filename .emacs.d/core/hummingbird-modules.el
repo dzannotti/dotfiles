@@ -12,5 +12,6 @@
 (require 'hummingbird-spaceline)
 (require 'hummingbird-autocomplete)
 (require 'hummingbird-neotree)
+(require 'hummingbird-gitgutter)
 
 (provide 'hummingbird-modules)
