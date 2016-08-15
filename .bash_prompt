@@ -35,7 +35,7 @@ __powerline() {
     readonly GIT_PROMPT_SYMBOL_PUSH="⬆"
     readonly GIT_PROMPT_SYMBOL_PULL="⬇"
 
-    readonly SYSTEM_PROMPT_SYMBOL_SEPARATOR='⮀'
+    readonly SYSTEM_PROMPT_SYMBOL_SEPARATOR=''
     readonly SYSTEM_PROMPT_SYMBOL_TRUE='✔'
     readonly SYSTEM_PROMPT_SYMBOL_FALSE='✘'
     readonly SYSTEM_PROMPT_SYMBOL_JOBS='⚙'
