@@ -110,5 +110,16 @@ brew install postgres
 # Install clojure
 brew install leiningen
 
+# install vim - macvim
+brew install macvim --with-cscope --python --HEAD
+brew install vim
+
+# install spacemacs
+brew tap d12frosted/emacs-plus
+brew install emacs-plus
+
+# Link :allthethings:
+brew linkapps
+
 # Remove outdated versions from the cellar.
 brew cleanup
