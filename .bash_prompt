@@ -26,16 +26,15 @@ __powerline() {
     readonly BOLD="\[$(tput bold)\]"
 
     # Unicode symbols
-    readonly GIT_PROMPT_SYMBOL_BRANCH='⭠ '
-    readonly GIT_PROMPT_SYMBOL_ADD="Ⓐ "
-    readonly GIT_PROMPT_SYMBOL_DELETE="Ⓓ "
-    readonly GIT_PROMPT_SYMBOL_MODIFY="Ⓜ "
-    readonly GIT_PROMPT_SYMBOL_RENAME="Ⓡ "
-    readonly GIT_PROMPT_SYMBOL_COMMIT="Ⓒ "
+    readonly GIT_PROMPT_SYMBOL_BRANCH='➦'
+    readonly GIT_PROMPT_SYMBOL_ADD="${FG_WHITE}Ⓐ ${RESET}"
+    readonly GIT_PROMPT_SYMBOL_DELETE="${FG_RED}Ⓓ ${RESET}"
+    readonly GIT_PROMPT_SYMBOL_MODIFY="${FG_MAGENTA}Ⓜ ${RESET}"
+    readonly GIT_PROMPT_SYMBOL_RENAME="${FG_CYAN}Ⓡ ${RESET}"
+    readonly GIT_PROMPT_SYMBOL_COMMIT="${FG_YELLOW}Ⓒ ${RESET}"
     readonly GIT_PROMPT_SYMBOL_PUSH="⬆"
     readonly GIT_PROMPT_SYMBOL_PULL="⬇"
 
-    readonly SYSTEM_PROMPT_SYMBOL_SEPARATOR=''
     readonly SYSTEM_PROMPT_SYMBOL_TRUE='✔'
     readonly SYSTEM_PROMPT_SYMBOL_FALSE='✘'
     readonly SYSTEM_PROMPT_SYMBOL_JOBS='⚙'
