@@ -42,18 +42,19 @@ brew install ringojs
 brew install narwhal
 
 # Install more recent versions of some OS X tools.
-brew tap railwaycat/emacsmacport
-brew install emacs-mac
 brew install homebrew/dupes/grep
 brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
-brew install homebrew/php/php55 --with-gmp
+brew install homebrew/php/php70 --with-gmp
 
 # Install font tools.
 brew tap bramstein/webfonttools
 brew install sfnt2woff
 brew install sfnt2woff-zopfli
 brew install woff2
+
+# Install Java
+brew cask install java
 
 # Install some CTF tools; see https://github.com/ctfs/write-ups.
 brew install aircrack-ng
@@ -78,13 +79,12 @@ brew install tcpflow
 brew install tcpreplay
 brew install tcptrace
 brew install ucspi-tcp # `tcpserver` etc.
-brew install xpdf
 brew install xz
 
 # Install other useful binaries.
 brew install ack
 brew install dark-mode
-#brew install exiv2
+brew install exiv2
 brew install git
 brew install git-lfs
 brew install imagemagick --with-webp
@@ -101,6 +101,14 @@ brew install tree
 brew install webkit2png
 brew install zopfli
 brew install ant
+
+# Install DB Providers
+brew install mongodb
+brew install mysql
+brew install postgres
+
+# Install clojure
+brew install leiningen
 
 # Remove outdated versions from the cellar.
 brew cleanup
