@@ -117,6 +117,7 @@ brew install vim
 # install spacemacs
 brew tap d12frosted/emacs-plus
 brew install emacs-plus
+git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 
 # Link :allthethings:
 brew linkapps
