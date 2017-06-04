@@ -41,7 +41,7 @@ __powerline() {
     readonly SYSTEM_PROMPT_SYMBOL_ROOT='⚡'
     readonly SYSTEM_PROMPT_SYMBOL_AT='@'
     readonly SYSTEM_PROMPT_SYMBOL_USER='➜'
-    readonly SYSTEM_PROMPT_SYMBOL_SEPARATOR='▶'
+    readonly SYSTEM_PROMPT_SYMBOL_SEPARATOR=''
 
     __git_info() {
 

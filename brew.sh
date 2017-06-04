@@ -33,7 +33,7 @@ fi;
 # Install `wget` with IRI support.
 brew install wget --with-iri
 
-# Install RingoJS and Narwhal.
+# Install RingoJS and Narwhal.s
 # Note that the order in which these are installed is important;
 # see http://git.io/brew-narwhal-ringo.
 brew install ringojs
@@ -99,6 +99,13 @@ brew install tree
 brew install vbindiff
 brew install webkit2png
 brew install zopfli
+
+## Sort out GPG Stuff
+brew install gpg1
+brew install gpg-agent
+git config --global gpg.program gpg1
+git config user.signingkey d.zannotti@me.com
+brew install pinentry-mac
 
 # Install spacemacs
 brew tap d12frosted/emacs-plus

@@ -19,18 +19,6 @@ You can clone the repository wherever you want. (I like to keep it in `~/project
 git clone https://github.com/dzannotti/dotfiles.git && cd dotfiles && source bootstrap.sh
 ```
 
-To update, `cd` into your local `dotfiles` repository and then:
-
-```bash
-source bootstrap.sh
-```
-
-Alternatively, to update while avoiding the confirmation prompt:
-
-```bash
-set -- -f; source bootstrap.sh
-```
-
 ### Git-free install
 
 To install these dotfiles without Git:
@@ -52,7 +40,7 @@ export PATH="/usr/local/bin:$PATH"
 ```
 
 ```bash
-./.osx
+./.macos
 ```
 
 ### Install Homebrew formulae
@@ -75,7 +63,7 @@ When setting up a new Mac, you may want to install some common [Homebrew](http:/
 * [Skype] (https://www.skype.com/en/download-skype/skype-for-mac/downloading/)
 * [Slack] (https://slack.com/downloads/osx)
 * [Visual Studio Code] (https://code.visualstudio.com/docs/?dv=osx)
-
+* [Fira Code](https://github.com/tonsky/FiraCode)
 
 ## Credits
 * This is an opinionated fork of https://github.com/mathiasbynens/dotfiles
