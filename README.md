@@ -4,6 +4,13 @@
 
 ## Installation
 
+### Pre-Requisites
+You need to install
+* XCode from app store
+* [Homebrew] (https://brew.sh/)
+* [Dropbox] (https://www.dropbox.com)
+
+
 ### Using Git and the bootstrap script
 
 You can clone the repository wherever you want. (I like to keep it in `~/projects/dotfiles`, with `~/dotfiles` as a symlink.) The bootstrapper script will pull in the latest version and copy the files to your home folder.
@@ -55,6 +62,20 @@ When setting up a new Mac, you may want to install some common [Homebrew](http:/
 ```bash
 ./brew.sh
 ```
+
+## Apps not on brew
+* [Alfred](https://www.alfredapp.com/)
+* [Chrome](https://www.google.co.uk/chrome/browser/desktop/index.html)
+* [Chromme Canary](https://www.google.co.uk/chrome/browser/canary.html)
+* [Firefox](https://www.mozilla.org/en-GB/firefox/new/)
+* [Github Desktop](https://desktop.github.com/)
+* [iTerm2] (https://www.iterm2.com/downloads.html)
+* [Licecap] (http://www.cockos.com/licecap/)
+* [Spectacle] (https://www.spectacleapp.com/)
+* [Skype] (https://www.skype.com/en/download-skype/skype-for-mac/downloading/)
+* [Slack] (https://slack.com/downloads/osx)
+* [Visual Studio Code] (https://code.visualstudio.com/docs/?dv=osx)
+
 
 ## Credits
 * This is an opinionated fork of https://github.com/mathiasbynens/dotfiles
