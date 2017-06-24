@@ -149,3 +149,24 @@ alias reload="exec $SHELL -l"
 
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
+
+# system
+alias ...="../.."
+alias c="clear"
+alias l="ls"
+
+# git
+alias gaa="git add --all"
+alias gap="git add -p"
+alias gb="git branch"
+alias gco="git checkout"
+alias gc="git commit -v"
+alias gd="git diff"
+alias gds="git diff --staged"
+alias gg="git lg"
+alias gp="git push"
+alias gl="git pull"
+alias gpf="git push -f"
+alias grc="git rebase --continue"
+alias gsq="git rebase -i"
+
