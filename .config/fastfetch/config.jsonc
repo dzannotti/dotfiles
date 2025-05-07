@@ -1,9 +1,9 @@
 {
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
   "logo": {
-    "source": "~/.config/fastfetch/ascii.txt",
+    "source": "~/.config/fastfetch/sauron.ans",
     "padding": {
-      "top": 0,
+      "top": 4,
       "left": 0,
       "right": 2
     }

@@ -9,3 +9,6 @@ Thumbs.db
 
 node_modules
 *.log
+readme.md
+brew.txt
+.config/tmux/plugins

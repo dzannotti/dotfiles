@@ -188,5 +188,5 @@
 	insteadOf = "gist:"
 
 [user]
-  name = Daniele Zannotti
-  email = d.zannotti@me.com
+	name = Daniele Zannotti
+	email = d.zannotti@me.com
