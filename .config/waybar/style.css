@@ -1,7 +1,8 @@
 @import "mocha.css"; 
 
 * {
-    font-family: "Inter Nerd Font Mono Bold";
+    font-family: "Inter Nerd Font";
+    font-weight: 400;
     font-size: 16px;
     min-height: 0;
     font-weight: bold;
