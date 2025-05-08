@@ -1,3 +1,5 @@
+theme = catppuccin-mocha.conf
+
 auto-update = download
 auto-update-channel = stable
 cursor-style = block
@@ -5,6 +7,6 @@ scrollback-limit = 2147483648
 
 font-family = CaskaydiaCove NF
 font-size = 13
-theme = catppuccin-mocha.conf
 font-thicken = true
 background-opacity = 0.89
+background-blur = true
