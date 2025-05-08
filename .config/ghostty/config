@@ -6,7 +6,7 @@ cursor-style = block
 scrollback-limit = 2147483648
 
 font-family = CaskaydiaCove NF
-font-size = 13
+font-size = 12
 font-thicken = true
 background-opacity = 0.89
 background-blur = true

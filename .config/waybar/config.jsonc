@@ -8,7 +8,7 @@
 
   // Choose the order of the modules
 
-  "modules-center": ["custom/launcher", "sway/workspaces", "custom/media", "idle_inhibitor",  "custom/updater", "pulseaudio", "network", "cpu", "memory", "temperature", "backlight", "keyboard-state", "sway/language", "battery", "battery#bat2",  "tray", "clock", "custom/power"],
+  "modules-center": ["custom/launcher", "custom/media", "idle_inhibitor",  "custom/updater", "pulseaudio", "network", "cpu", "memory", "temperature", "backlight", "keyboard-state", "sway/language", "battery", "battery#bat2",  "tray", "clock", "custom/power"],
 
   // Modules configuration
 
