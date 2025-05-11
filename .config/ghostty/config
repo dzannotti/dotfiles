@@ -13,3 +13,6 @@ background-blur = true
 window-theme=ghostty
 window-titlebar-background=#1e1e2e
 window-titlebar-foreground=#cdd6f4
+
+clipboard-paste-protection=false
+clipboard-paste-bracketed-safe=false

@@ -6,3 +6,6 @@ HISTSIZE=10000
 SAVEHIST=50000
 
 setopt inc_append_history
+
+# begone annoying ~ in terminal paste
+unset zle_bracketed_paste
