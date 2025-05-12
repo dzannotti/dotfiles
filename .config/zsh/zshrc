@@ -9,3 +9,11 @@ setopt inc_append_history
 
 # begone annoying ~ in terminal paste
 unset zle_bracketed_paste
+
+if [[ "$(uname)" == "Linux" ]]; then
+  if [[ "$XDG_SESSION_TYPE" == "wayland" ]]; then
+    gsettings set org.gnome.desktop.input-sources xkb-options "['caps:escape']"
+  else
+    setxkbmap -option caps:escape
+  fi
+fi
