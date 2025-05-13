@@ -1,9 +1,19 @@
+local Util = require("lazyvim.util")
+
 return {
   {
     "nvim-telescope/telescope.nvim",
     keys = {
+      {
+        "<leader>fG",
+        function()
+          require("telescope.builtin").find_files({
+            find_command = { "fd", "--type", "f", "--hidden", "--exclude", ".git" },
+          })
+        end,
+        desc = "Find files (including hidden)",
+      },
       { "<leader>fg", "<cmd>Telescope live_grep<cr>", desc = "Find text (grep)" },
-      { "<leader>fG", "<cmd>Telescope git_files<cr>", desc = "Find in git files" },
       {
         "<leader>fp",
         function()
