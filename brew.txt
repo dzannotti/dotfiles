@@ -1,3 +1,5 @@
 stow
 eza
 bat
+fzf
+ripgrep
