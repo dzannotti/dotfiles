@@ -11,4 +11,4 @@ source ~/.local/share/omarchy/default/bash/rc
 # alias p='python'
 
 # Load custom aliases
-[[ -f ~/.bash_aliases ]] && source ~/.bash_aliases
+[[ -f ~/.aliases ]] && source ~/.aliases
