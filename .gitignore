@@ -12,3 +12,12 @@ node_modules
 readme.md
 brew.txt
 .config/tmux/plugins
+
+# Backup files
+*.bak
+*.backup
+*.bak.*
+*.backup-*
+
+# hyprwhspr configs
+*hyprwhspr*

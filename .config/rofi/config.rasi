@@ -1,0 +1,7 @@
+configuration {
+    font: "CaskaydiaMono Nerd Font Mono 12";
+}
+
+* {
+    border-radius: 4px;
+}
